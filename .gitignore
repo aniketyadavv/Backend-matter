@@ -1,0 +1,20 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Lock files
+package-lock.json
+yarn.lock

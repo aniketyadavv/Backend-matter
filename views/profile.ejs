@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .profile-container {
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .profile-info {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .profile-info p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-container">
+        <h2>Profile Page</h2>
+        <div class="profile-info">
+            <p><strong>Username:</strong> aniket</p>
+            <p><strong>Email:</strong> aniket@example.com</p>
+            <p><strong>Secret:</strong> your-secret-value</p>
+        </div>
+        <a href="/logout">Logout</a>
+    </div>
+</body>
+
+</html>

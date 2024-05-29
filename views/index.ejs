@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Form</title>
+  <style>
+    form {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #f9f9f9;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .btn-primary {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="/register" method="post">
+    <h2>Register✨</h2>
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input name="username" type="text" class="form-control" id="username" placeholder="Enter username">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input name="password" type="password" class="form-control" id="password" placeholder="Password">
+    </div>
+    <div class="form-group">
+      <label for="secret">Secret</label>
+      <input name="secret" type="text" class="form-control" id="secret" placeholder="Enter secret">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <hr>
+
+  <form action="/login" method="post">
+    <h2>Login</h2>
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input name="username" type="text" class="form-control" id="username" placeholder="Enter username">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input name="password" type="password" class="form-control" id="password" placeholder="Password">
+    </div>
+    <div class="form-group">
+      <label for="secret">Secret</label>
+      <input name="secret" type="text" class="form-control" id="secret" placeholder="Enter secret">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</body>
+
+</html>
